@@ -37,7 +37,7 @@ class _MyButtonState extends State<MyButton> {
                 "Actualizar",
                 style: TextStyle(color: Colors.white),
               ),
-              onPressed: () {},
+              onPressed: onPressButton,
             )
           ],
         )),
