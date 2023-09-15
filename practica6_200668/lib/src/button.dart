@@ -16,7 +16,13 @@ class _MyButtonState extends State<MyButton> {
         child: Center(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[Text("Sandra"), Text("Aguilar")],
+          children: <Widget>[
+            Text("Sandra"),
+            ElevatedButton(
+              child: Text("Actualizar"),
+              onPressed: () {},
+            )
+          ],
         )),
       ),
     );
